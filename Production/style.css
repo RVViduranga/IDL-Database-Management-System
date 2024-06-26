@@ -1,0 +1,84 @@
+body {
+    background: #5a694f;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 1.8rem;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: separate;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 8px solid #ffffff;
+    background: #2e0563;
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+th {
+    font-size: 30px;
+    background: #666;
+    color: #FFF;
+}
+
+td {
+    font-size: 30px;
+}
+
+
+.back-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #000000; /* Button background color */
+    color: #ffffff; /* Text color */
+    padding: 3px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px
+}
+
+/* Style the button on hover */
+.back-button:hover {
+    background: #0056b3; /* Hover background color */
+}
+
+.date-display {
+    position: absolute;
+    box-shadow: 5px 5px 5px #888888;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 150px;
+    height: 30px;
+    z-index: 1;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+}
+
+
+
+
+
+
+
+
+
+
+
+
